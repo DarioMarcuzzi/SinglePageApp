@@ -1,0 +1,302 @@
+{
+  "data": {
+    "id": 1,
+    "nombre": "UVI",
+    "descripcion": "Hola somos UV!  ofrecemos servicios para ayudar a los individuos a mejorar sus posibilidades de conseguir un empleo. Algunos de nuestros servicios incluyen la revisión y creación de CV y perfiles de LinkedIn, asesoramiento y prácticas de entrevistas, y orientación en la búsqueda de empleo.",
+    "ilustraciones": {
+      "landing": [
+        {
+          "id": 1,
+          "url": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681047414/imagenes%20Uvi/LandingPage/undraw_Digital_nomad_re_w8uy-removebg-preview_mwnav6.png"
+        },
+        {
+          "id": 2,
+          "url": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681047402/imagenes%20Uvi/LandingPage/undraw_learning_sketching_nd4f-removebg-preview_yzbwns.png"
+        }
+      ],
+      "servicios": [
+        {
+          "id": 1,
+          "title": "Correccion y confeccion de CV y perfil de",
+          "url": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681068221/imagenes%20Uvi/Servicios/undraw_personal_information_re_vw8a-removebg-preview_ieio9z.png"
+        },
+        {
+          "id": 2,
+          "title": "Consejos y simulacros de entrevistas",
+          "url": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681068294/imagenes%20Uvi/Servicios/undraw_Audio_conversation_re_3t38-removebg-preview_htxntj.png"
+        },
+        {
+          "id": 3,
+          "title": "Guia de ayuda para la busqueda de empleo",
+          "url": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681068186/imagenes%20Uvi/Servicios/undraw_Interview_re_e5jn-removebg-preview_ktiyz2.png"
+        }
+      ],
+      "recomendaciones": [
+        {
+          "id": 1,
+          "url": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071398/imagenes%20Uvi/recomendaciones/undraw_Male_avatar_g98d-removebg-preview_ss7exx.png"
+        },
+        {
+          "id": 2,
+          "url": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071398/imagenes%20Uvi/recomendaciones/undraw_Male_avatar_g98d-removebg-preview_ss7exx.png"
+        }
+      ]
+    },
+    "recomendaciones": [
+      {
+        "id": 1,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071398/imagenes%20Uvi/recomendaciones/undraw_Male_avatar_g98d-removebg-preview_ss7exx.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 2,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071403/imagenes%20Uvi/recomendaciones/undraw_Female_avatar_efig-removebg-preview_vxfh2r.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 3,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071398/imagenes%20Uvi/recomendaciones/undraw_Male_avatar_g98d-removebg-preview_ss7exx.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 4,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071398/imagenes%20Uvi/recomendaciones/undraw_Male_avatar_g98d-removebg-preview_ss7exx.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 5,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071403/imagenes%20Uvi/recomendaciones/undraw_Female_avatar_efig-removebg-preview_vxfh2r.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 6,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071398/imagenes%20Uvi/recomendaciones/undraw_Male_avatar_g98d-removebg-preview_ss7exx.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 7,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071403/imagenes%20Uvi/recomendaciones/undraw_Female_avatar_efig-removebg-preview_vxfh2r.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 8,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071398/imagenes%20Uvi/recomendaciones/undraw_Male_avatar_g98d-removebg-preview_ss7exx.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 9,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071403/imagenes%20Uvi/recomendaciones/undraw_Female_avatar_efig-removebg-preview_vxfh2r.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 10,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071398/imagenes%20Uvi/recomendaciones/undraw_Male_avatar_g98d-removebg-preview_ss7exx.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 11,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071403/imagenes%20Uvi/recomendaciones/undraw_Female_avatar_efig-removebg-preview_vxfh2r.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 12,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071398/imagenes%20Uvi/recomendaciones/undraw_Male_avatar_g98d-removebg-preview_ss7exx.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 13,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071403/imagenes%20Uvi/recomendaciones/undraw_Female_avatar_efig-removebg-preview_vxfh2r.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 14,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071398/imagenes%20Uvi/recomendaciones/undraw_Male_avatar_g98d-removebg-preview_ss7exx.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 15,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071403/imagenes%20Uvi/recomendaciones/undraw_Female_avatar_efig-removebg-preview_vxfh2r.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 16,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071403/imagenes%20Uvi/recomendaciones/undraw_Female_avatar_efig-removebg-preview_vxfh2r.png",
+        "fecha": "02/08/2015"
+      },
+      {
+        "id": 17,
+        "nombre": "Steve Jobs",
+        "calificacion": 2,
+        "descripcion": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion",
+        "avatar": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1681071403/imagenes%20Uvi/recomendaciones/undraw_Female_avatar_efig-removebg-preview_vxfh2r.png",
+        "fecha": "02/08/2015"
+      }
+    ],
+    "planesMes": [
+      {
+        "id": 1,
+        "nombre": "Plan Basico",
+        "precio": 2,
+        "descripcion": [
+          {
+            "id": 1,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          },
+          {
+            "id": 2,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          },
+          {
+            "id": 3,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Plan Intermedio",
+        "precio": 6,
+        "descripcion": [
+          {
+            "id": 1,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          },
+          {
+            "id": 2,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          },
+          {
+            "id": 3,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Plan Avanzado",
+        "precio": 10,
+        "descripcion": [
+          {
+            "id": 1,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          },
+          {
+            "id": 2,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          },
+          {
+            "id": 3,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          }
+        ]
+      }
+    ],
+    "planesAnual": [
+      {
+        "id": 1,
+        "nombre": "Plan Basico",
+        "precio": 10,
+        "descripcion": [
+          {
+            "id": 1,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          },
+          {
+            "id": 2,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          },
+          {
+            "id": 3,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Plan Intermedio",
+        "precio": 20,
+        "descripcion": [
+          {
+            "id": 1,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          },
+          {
+            "id": 2,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          },
+          {
+            "id": 3,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Plan Avanzado",
+        "precio": 30,
+        "descripcion": [
+          {
+            "id": 1,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          },
+          {
+            "id": 2,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          },
+          {
+            "id": 3,
+            "text": "Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostracion"
+          }
+        ]
+      }
+    ]
+  }
+}
