@@ -18,7 +18,11 @@ const Services = () => {
       <div className="flex flex-wrap my-4 sm:flex-wrap gap-4 justify-around w-full">
         {dataService?.map((e, index) => {
           return (
-            <div className="bg-colorCardServices shadow-md rounded-md w-60 h-72   xl:w-72 xl:h-96">
+            <div
+              className="bg-colorCardServices shadow-md rounded-md w-60 h-72   xl:w-72 xl:h-96"
+              data-aos="fade-right"
+              data-aos-delay="300"
+            >
               <div className="h-3/5">
                 <img className="h-full" src={e.url} alt="title-service" />
               </div>

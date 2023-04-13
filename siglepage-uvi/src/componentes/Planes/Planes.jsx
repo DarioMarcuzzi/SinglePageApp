@@ -56,6 +56,7 @@ const Planes = () => {
           return (
             <div
               key={e.id}
+              data-aos="fade-up"
               className=" xl:w-96 bg-colorCardServices overflow-hidden justify-end flex xl:h-[500px]  w-72 h-96 rounded-md shadow-md brightness-125 group"
             >
               <div className="absolute ">

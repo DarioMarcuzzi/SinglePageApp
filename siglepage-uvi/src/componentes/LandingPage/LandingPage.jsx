@@ -67,6 +67,7 @@ const LandingPage = () => {
           style={{
             bottom: "0px",
           }}
+          data-aos="fade-left"
           className="relative  xl:w-[370px] xl:h-[300px] 2xl:w-auto 2xl:h-auto"
           src="https://res.cloudinary.com/dmpqjroj5/image/upload/v1681047402/imagenes%20Uvi/LandingPage/undraw_learning_sketching_nd4f-removebg-preview_yzbwns.png"
           alt="ilustracion2"

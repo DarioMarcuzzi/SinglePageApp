@@ -84,7 +84,7 @@ const Recomendaciones = () => {
       </div>
 
       <div
-        // data-aos="fade-left"
+        data-aos="fade-left"
         className="flex md:mt-10 xl:mt-40 flex-col h-3/5 w-screen border-t-2 border-black "
       >
         <Slider {...settings}>

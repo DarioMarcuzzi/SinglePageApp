@@ -59,7 +59,7 @@ const Formulario = () => {
           onSubmit={sendEmail}
           className=" w-screen xl:w-5/6 flex flex-col justify-center items-center  rounded px-8 pt-6 pb-8 mb-4"
         >
-          <div className="mb-4 w-full">
+          <div data-aos="fade-right" className="mb-4 w-full">
             <input
               className=" focus:border-2 border-2 focus:shadow-colorPunto  focus:border-colorPunto appearance-none rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="nombre"
@@ -68,7 +68,7 @@ const Formulario = () => {
               name="form_nombre"
             />
           </div>
-          <div className="mb-4 w-full">
+          <div data-aos="fade-right" className="mb-4 w-full ">
             <input
               className="shadow focus:border-2 border-2 focus:shadow-colorPunto  focus:border-colorPunto appearance-none  rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="correo"
@@ -77,7 +77,7 @@ const Formulario = () => {
               name="from_email"
             />
           </div>
-          <div className="mb-4 w-full">
+          <div data-aos="fade-right" className="mb-4 w-full">
             <input
               className="shadow appearance-none focus:border-2 border-2 focus:shadow-colorPunto  focus:border-colorPunto rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="telefono"
