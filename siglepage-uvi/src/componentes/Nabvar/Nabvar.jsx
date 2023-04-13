@@ -8,11 +8,7 @@ const Navbar = () => {
       <div className="mx-auto flex justify-start  w-full items-center py-4">
         {/* Site logo and Name */}
         <div className="w-1/6 ">
-          <a
-            href="https://www.linkedin.com/company/universo-i/"
-            target="_blank"
-            className="flex flex-shrink-0  items-center text-gray-900 md:mb-0"
-          >
+          <a href="#landingPage">
             <img
               src="https://res.cloudinary.com/dmpqjroj5/image/upload/v1681047325/imagenes%20Uvi/logo1_1_2_1_5_1_idgr1v.png"
               className="w-fit h-fit xl:w-fit xl:h-10 text-white ml-2 "
