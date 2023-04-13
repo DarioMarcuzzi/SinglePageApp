@@ -68,24 +68,24 @@ const Recomendaciones = () => {
   return (
     <div
       id="recomendaciones"
-      className="flex flex-col h-screen w-screen  font-serif"
+      className="flex flex-col h-screen w-screen sm:mt-20  overflow-hidden  font-serif"
     >
-      <div className="flex h-1/5 w-full  items-center  justify-center ">
-        <h1 className="text-8xl z-10 text-white  font-serif ">
+      <div className="flex h-1/5 w-full   items-center  justify-center ">
+        <h1 className="text-2xl md:text-5xl xl:text-7xl 2xl:text-8xl  z-10 text-white  font-serif ">
           Recomendaciones de clientes
         </h1>
-        <div className=" absolute">
+        <div className=" absolute -z-20">
           <img
-            className="relative"
+            className="relative "
             src="https://res.cloudinary.com/dmpqjroj5/image/upload/v1681222875/imagenes%20Uvi/Ellipse_16_jh36j0.png"
             alt="fondo"
           />
         </div>
       </div>
-      <div className="h-1/5"></div>
+
       <div
         // data-aos="fade-left"
-        className="flex flex-col h-3/5 w-screen border-t-2 border-black "
+        className="flex md:mt-10 xl:mt-40 flex-col h-3/5 w-screen border-t-2 border-black "
       >
         <Slider {...settings}>
           {recomendaciones?.map((e, index) => (
@@ -106,7 +106,7 @@ const Recomendaciones = () => {
                   <img className="w-44 z-10 h-40" src={e.avatar} alt="avatar" />
                   <div className="absolute">
                     <img
-                      className="h-40 w-50"
+                      className="h-30 w-40 md:h-40 md:w-60"
                       src="https://res.cloudinary.com/dmpqjroj5/image/upload/v1681222878/imagenes%20Uvi/Ellipse_13_a3w3fx.png"
                       alt="fondo-avatar"
                     />

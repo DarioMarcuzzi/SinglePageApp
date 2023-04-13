@@ -39,11 +39,13 @@ const Formulario = () => {
   return (
     <div
       id="contacto"
-      className="font-serif bg-no-repeat h-screen bg-colorFormulario w-screen flex flex-col items-center justify-between"
+      className="font-serif bg-no-repeat  bg-colorFormulario w-screen flex flex-col items-center justify-between"
     >
-      <div className="w-[800px] bg-bgFormulario flex flex-col items-center bg-contain bg-no-repeat bg-center h-[800px] mb-10">
+      <div className="w-[800px] bg-bgFormulario flex flex-col items-center  bg-no-repeat bg-cover bg-center h-[800px] mb-10">
         <div>
-          <h1 className="text-8xl text-white mt-20 mb-10">Contacto</h1>
+          <h1 className="text-5xl xl:text-8xl text-white mt-20 mb-10">
+            Contacto
+          </h1>
         </div>
         <div className="mt-2 p-4 flex justify-center bg-colorFormulario rounded-md shadow-md h-32 w-60">
           <img
@@ -55,7 +57,7 @@ const Formulario = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className=" w-5/6 flex flex-col justify-center items-center  rounded px-8 pt-6 pb-8 mb-4"
+          className=" w-screen xl:w-5/6 flex flex-col justify-center items-center  rounded px-8 pt-6 pb-8 mb-4"
         >
           <div className="mb-4 w-full">
             <input
@@ -86,7 +88,7 @@ const Formulario = () => {
           </div>
           <div className="mb-4  ">
             <label
-              className="focus:border-2 border-2 focus:shadow-colorPunto  focus:border-colorPunto text-white  font-bold mb-2"
+              className="focus:border-2  focus:shadow-colorPunto  focus:border-colorPunto text-white  font-bold mb-2"
               htmlFor="plan"
             >
               Plan
@@ -110,11 +112,12 @@ const Formulario = () => {
               <label className="ml-4 text-xs text-slate-400">Max: 5Mb</label>
             </label>
             <input
-              className="shadow appearance-none focus:border-2 border-2 focus:shadow-colorPunto  focus:border-colorPunto rounded w-full py2 px-3 leading-tight focus:outline-none focus:shadow-outline"
               id="archivo"
               type="file"
               accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
               max-size="5000000"
+              className="block w-full py-2 px-3 mt-1 leading-5  placeholder-gray-400 transition duration-150 ease-in-out border 
+               text-black border-gray-300 rounded-md shadow-sm focus:outline-none focus:shadow-outline-blue focus:border-blue-300 sm:text-sm sm:leading-5 focus:ring focus:ring-blue-200 focus:ring-opacity-50"
             />
           </div>
 

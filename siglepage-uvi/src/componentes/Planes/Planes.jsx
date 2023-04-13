@@ -25,10 +25,10 @@ const Planes = () => {
   return (
     <div
       id="planes"
-      className="bg-bgPlanes bg-cover bg-center  w-screen h-screen bg-no-repeat font-serif"
+      className="bg-bgPlanes bg-cover bg-center  w-screen mt-10  bg-no-repeat font-serif"
     >
       <div className="justify-center flex h-1/5 ">
-        <h1 className="text-8xl">Nuestros Planes</h1>
+        <h1 className="text-5xl mb-10  xl:text-8xl">Nuestros Planes</h1>
       </div>
       <div className="justify-center h-32  flex gap-10">
         <button
@@ -51,12 +51,12 @@ const Planes = () => {
           Anual
         </button>
       </div>
-      <div className=" flex  justify-around">
+      <div className=" flex flex-wrap gap-4  justify-around">
         {infoPlanes?.map((e, index) => {
           return (
             <div
               key={e.id}
-              className=" w-96 bg-colorCardServices overflow-hidden justify-end flex h-[500px] rounded-md shadow-md brightness-125 group"
+              className=" xl:w-96 bg-colorCardServices overflow-hidden justify-end flex xl:h-[500px]  w-72 h-96 rounded-md shadow-md brightness-125 group"
             >
               <div className="absolute ">
                 <div
@@ -69,44 +69,48 @@ const Planes = () => {
                   {" "}
                 </div>
               </div>
-              <div className="z-10  w-full flex flex-col">
+              <div className="z-10  justify-center w-full flex flex-col">
                 <div className=" w-full h-1/5 justify-center flex items-center">
-                  <h1 className="text-3xl">{e.nombre}</h1>
+                  <h1 className="text-2xl xl:text-3xl">{e.nombre}</h1>
                 </div>
-                <div className="flex  w-full">
-                  <h1 className="text-right text-8xl border-r-4 pr-2 border-black w-4/6">
+                <div className="flex w-full justify-center xl:justify-start items-center  mb-4">
+                  <h1 className=" xl:text-right text-6xl xl:text-8xl border-r-4 pr-2  border-black xl:w-4/6">
                     {e.precio}$
                   </h1>
-                  <h1 className="w-8 text-5xl flex items-center text-gray-700">
+                  <h1 className="w-8  text-3xl  xl:text-5xl flex items-center text-gray-700">
                     {plan === 0 ? "Por Mes" : "Por Año"}
                   </h1>
                 </div>
-                <div className="flex flex-col m-4 ">
+                <div className="flex flex-col mx-4 ">
                   {e.descripcion.map((d, index2) => {
                     return (
-                      <div className="flex items-center">
+                      <div className="flex items-center ">
                         {index === 0 && index2 <= 0 ? (
                           <img
+                            className="w-14 h-16 xl:w-fit xl:h-fit"
                             src="https://res.cloudinary.com/dmpqjroj5/image/upload/v1681246157/imagenes%20Uvi/Planes/Frame_3_glfetd.png"
                             alt="iconA"
                           />
                         ) : index === 1 && index2 < 2 ? (
                           <img
+                            className="w-14 h-16 xl:w-fit xl:h-fit"
                             src="https://res.cloudinary.com/dmpqjroj5/image/upload/v1681246157/imagenes%20Uvi/Planes/Frame_3_glfetd.png"
                             alt="iconA"
                           />
                         ) : index === 2 ? (
                           <img
+                            className="w-14 h-16 xl:w-fit xl:h-fit"
                             src="https://res.cloudinary.com/dmpqjroj5/image/upload/v1681246157/imagenes%20Uvi/Planes/Frame_3_glfetd.png"
                             alt="iconA"
                           />
                         ) : (
                           <img
+                            className="w-14 h-16 xl:w-fit xl:h-fit"
                             src="https://res.cloudinary.com/dmpqjroj5/image/upload/v1681253225/imagenes%20Uvi/Planes/Frame_4_bdug2d.png"
                             alt="iconB"
                           />
                         )}
-                        <h1 className="border-b-2 text-right  border-black ">
+                        <h1 className="border-b-2 text-right text-sm xl:text-xl border-black ">
                           {d.text}
                         </h1>
                       </div>

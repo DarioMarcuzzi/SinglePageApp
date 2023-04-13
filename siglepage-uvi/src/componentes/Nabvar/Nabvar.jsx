@@ -1,50 +1,110 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Nabvar = () => {
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div className="fixed flex h-20 z-10 bg-slate-600/50 w-full">
-      <div className="w-1/6  h-full">
-        <div className=" ml-2 h-full flex justify-center items-center w-3/5">
-          <img
-            className="h-16"
-            src="https://res.cloudinary.com/dmpqjroj5/image/upload/v1681047325/imagenes%20Uvi/logo1_1_2_1_5_1_idgr1v.png"
-            alt="logo1"
-          />
+    <header className="w-full z-20 bg-colorFooter/50 text-gray-100 body-font font-serif fixed shadow-sm">
+      <div className="mx-auto flex justify-start  w-full items-center py-4">
+        {/* Site logo and Name */}
+        <div className="w-1/6 ">
+          <a
+            href="https://www.linkedin.com/company/universo-i/"
+            target="_blank"
+            className="flex flex-shrink-0  items-center text-gray-900 md:mb-0"
+          >
+            <img
+              src="https://res.cloudinary.com/dmpqjroj5/image/upload/v1681047325/imagenes%20Uvi/logo1_1_2_1_5_1_idgr1v.png"
+              className="w-fit h-fit xl:w-fit xl:h-10 text-white ml-2 "
+              alt="logo1"
+            ></img>
+          </a>
         </div>
-      </div>
-      <div className="w-4/6  h-full text-white text-2xl font-serif flex">
-        <div className="w-1/2 h-full flex  items-center   justify-around  ">
+        {/* Navbar */}
+
+        <nav className="hidden w-full xl:w-4/6  md:flex flex-wrap items-center justify-around text-2xl tracking-wide">
           <a
             href="#servicios"
-            className="hover:cursor-pointer hover:border-white border-transparent border-b-2"
+            className="mr-8  hover:border-b-2 border-b-2 border-transparent hover:border-white"
           >
             Servicios
           </a>
           <a
             href="#recomendaciones"
-            className="hover:cursor-pointer hover:border-white border-transparent border-b-2"
+            className="mr-8 hover:border-b-2 border-b-2 border-transparent hover:border-white"
           >
             Recomendaciones
           </a>
-        </div>
-        <div className="w-1/2 h-full  flex  items-center  justify-around  ">
           <a
             href="#planes"
-            className="hover:cursor-pointer hover:border-white border-transparent border-b-2"
+            className="mr-8  hover:border-b-2 border-b-2 border-transparent hover:border-white"
           >
             Planes
           </a>
           <a
             href="#contacto"
-            className="hover:cursor-pointer hover:border-white border-transparent border-b-2"
+            className="mr-8  hover:border-b-2 border-b-2 border-transparent hover:border-white"
+          >
+            Contacto
+          </a>
+        </nav>
+        {/* Avatar */}
+
+        {/* Burger icon standard */}
+        <div className=" w-full  md:w-auto  flex justify-end mr-4 ">
+          <button
+            className="md:hidden rounded-md active:outline-none focus:outline-none focus:ring-2 focus:ring-inset "
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-8 w-8 rounded-md text-gray-300 bg-gradient-to-br from-transparent to-transparent hover:text-white "
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      {/* :MOBILE MENU */}
+      {isOpen && (
+        <div className="w-full flex flex-col py-4 px-3 md:hidden bg-colorFooter/50 text-base uppercase text-center font-semibold">
+          <a
+            href="#servicios"
+            className="block px-3 py-2 rounded-md text-gray-300  hover:text-white hover:bg-gray-700"
+          >
+            Servicios
+          </a>
+          <a
+            href="#recomendaciones"
+            className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700"
+          >
+            Recomendaciones
+          </a>
+          <a
+            href="#planes"
+            className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700"
+          >
+            Planes
+          </a>
+          <a
+            href="#contacto"
+            className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700"
           >
             Contacto
           </a>
         </div>
-      </div>
-      <div className="w-1/6 h-full"></div>
-    </div>
+      )}
+    </header>
   );
 };
 
-export default Nabvar;
+export default Navbar;
