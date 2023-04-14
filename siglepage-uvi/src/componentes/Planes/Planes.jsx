@@ -28,7 +28,7 @@ const Planes = () => {
       className="bg-bgPlanes bg-cover bg-center  w-screen mt-10  bg-no-repeat font-serif"
     >
       <div className="justify-center flex h-1/5 ">
-        <h1 className="text-5xl mb-10  xl:text-8xl">Nuestros Planes</h1>
+        <h1 className="text-5xl mb-10 mt-16  xl:text-8xl">Nuestros Planes</h1>
       </div>
       <div className="justify-center h-32  flex gap-10">
         <button

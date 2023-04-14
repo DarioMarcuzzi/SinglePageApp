@@ -4,7 +4,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="w-full z-20 bg-colorFooter/50 text-gray-100 body-font font-serif fixed shadow-sm">
+    <header
+      style={{
+        backdropFilter: "blur(500px)",
+      }}
+      className="w-full z-20 bg-colorFooter/50 text-gray-100 body-font font-serif fixed shadow-sm"
+    >
       <div className="mx-auto flex justify-start  w-full items-center py-4">
         {/* Site logo and Name */}
         <div className="w-1/6 ">
