@@ -6,7 +6,6 @@ const Navbar = () => {
   return (
     <header className="w-full z-20 bg-colorFooter/50 backdrop-blur-xl text-gray-100 body-font font-serif fixed shadow-sm">
       <div className="mx-auto flex justify-start  w-full items-center py-4">
-        {/* Site logo and Name */}
         <div className="w-1/6 ">
           <a href="#landingPage">
             <img
@@ -16,7 +15,6 @@ const Navbar = () => {
             ></img>
           </a>
         </div>
-        {/* Navbar */}
 
         <nav className="hidden w-full xl:w-4/6  md:flex flex-wrap items-center justify-around text-2xl tracking-wide">
           <a
@@ -44,9 +42,7 @@ const Navbar = () => {
             Contacto
           </a>
         </nav>
-        {/* Avatar */}
 
-        {/* Burger icon standard */}
         <div className=" w-full  md:w-auto  flex justify-end mr-4 ">
           <button
             className="md:hidden rounded-md active:outline-none focus:outline-none focus:ring-2 focus:ring-inset "
